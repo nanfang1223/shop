@@ -1,0 +1,1 @@
+<view class="us-all _div data-v-1d5a4956"><block wx:if="{{content}}"><view class="logo _div data-v-1d5a4956" style="{{'top:'+(halfWidth)+';'}}"><rich-text class="richtext yh-richtext data-v-1d5a4956" nodes="{{content}}"></rich-text></view></block></view>

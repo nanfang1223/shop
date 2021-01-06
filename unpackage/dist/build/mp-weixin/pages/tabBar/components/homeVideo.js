@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/tabBar/components/homeVideo"],{"20e4":function(t,i,n){"use strict";var o=n("a88d"),e=n.n(o);e.a},"937a":function(t,i,n){"use strict";Object.defineProperty(i,"__esModule",{value:!0}),i.default=void 0;var o={name:"homeVideo",props:{dataConfig:{type:Object,default:function(){}},opensetting:{type:Boolean}},data:function(){return{mbConfig:this.dataConfig.mbConfig.val,videoSrc:"",posterSrc:"",title:""}},watch:{dataConfig:function(){this.videoSrc=this.dataConfig.swiperConfig.list[0].img,this.title=this.dataConfig.swiperConfig.list[0].info.value,this.posterSrc=this.dataConfig.posterConfig.list[0].img,this.mbConfig=this.dataConfig.mbConfig.val}},created:function(){this.videoSrc=this.dataConfig.swiperConfig.list[0].img,this.title=this.dataConfig.swiperConfig.list[0].info.value,this.posterSrc=this.dataConfig.posterConfig.list[0].img},methods:{videoErrorCallback:function(t){console.error("视频错误",t)}}};i.default=o},"9c1e":function(t,i,n){"use strict";n.r(i);var o=n("c8cd"),e=n("da13");for(var a in e)"default"!==a&&function(t){n.d(i,t,(function(){return e[t]}))}(a);n("20e4");var r,f=n("f0c5"),s=Object(f["a"])(e["default"],o["b"],o["c"],!1,null,"2bd47910",null,!1,o["a"],r);i["default"]=s.exports},a88d:function(t,i,n){},c8cd:function(t,i,n){"use strict";var o;n.d(i,"b",(function(){return e})),n.d(i,"c",(function(){return a})),n.d(i,"a",(function(){return o}));var e=function(){var t=this,i=t.$createElement;t._self._c},a=[]},da13:function(t,i,n){"use strict";n.r(i);var o=n("937a"),e=n.n(o);for(var a in o)"default"!==a&&function(t){n.d(i,t,(function(){return o[t]}))}(a);i["default"]=e.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/tabBar/components/homeVideo-create-component',
+    {
+        'pages/tabBar/components/homeVideo-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("9c1e"))
+        })
+    },
+    [['pages/tabBar/components/homeVideo-create-component']]
+]);

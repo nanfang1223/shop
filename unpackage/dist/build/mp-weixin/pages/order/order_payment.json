@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "请选择支付方式",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "paymodel": "/components/paymodel",
+    "choose-pay": "/components/choose-pay",
+    "submit-order": "/components/order/submit-order"
+  }
+}

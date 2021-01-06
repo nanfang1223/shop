@@ -1,0 +1,1 @@
+<view class="_div data-v-27195a4d"><heads vue-id="740582eb-1" title="{{title}}" class="data-v-27195a4d" bind:__l="__l"></heads><toload vue-id="740582eb-2" load="{{load}}" class="data-v-27195a4d" bind:__l="__l" vue-slots="{{['default']}}"><rich-text class="richtext data-v-27195a4d" style="font-size:14px;" nodes="{{contentNodes}}"></rich-text></toload></view>

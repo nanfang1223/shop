@@ -1,0 +1,1 @@
+<view class="blankPage" style="{{'height:'+(heightConfig+'rpx')+';'+('background-color:'+(bgColor)+';')}}"></view>

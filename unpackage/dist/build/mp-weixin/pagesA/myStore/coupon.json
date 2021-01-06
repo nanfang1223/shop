@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "优惠券",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "date": "/components/date-time-picker"
+  }
+}

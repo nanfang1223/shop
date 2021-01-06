@@ -1,0 +1,1 @@
+<view class="us-all _div data-v-6d8b01c2"><heads vue-id="62efa708-1" title="{{language.gradeUse.title}}" class="data-v-6d8b01c2" bind:__l="__l"></heads><block wx:if="{{content}}"><view class="logo _div data-v-6d8b01c2"><rich-text class="richtext yh-content data-v-6d8b01c2" nodes="{{content}}"></rich-text></view></block></view>

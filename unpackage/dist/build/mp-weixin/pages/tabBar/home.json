@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "豪眼光电商",
+  "navigationStyle": "custom",
+  "navigationBarBackgroundColor": "#FF612A",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "swiper-picture": "/pages/tabBar/components/swiperPicture",
+    "home-video": "/pages/tabBar/components/homeVideo",
+    "header-serch": "/pages/tabBar/components/headerSerch",
+    "blank-page": "/pages/tabBar/components/blankPage",
+    "combination": "/pages/tabBar/components/combination",
+    "guide": "/pages/tabBar/components/guide",
+    "menus": "/pages/tabBar/components/menus",
+    "rich-text": "/pages/tabBar/components/richText",
+    "seckill": "/pages/tabBar/components/seckill",
+    "swiper-bg": "/pages/tabBar/components/swiperBg",
+    "tab-nav": "/pages/tabBar/components/tabNav",
+    "home-adv": "/pages/tabBar/components/homeAdv",
+    "home-store": "/pages/tabBar/components/homeStore"
+  }
+}

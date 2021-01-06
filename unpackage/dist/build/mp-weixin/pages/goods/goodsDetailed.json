@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "heads": "/components/header",
+    "weixin-parse": "/components/mpvue-wxparse/src/wxParse",
+    "toload": "/components/toload",
+    "rule-modal": "/components/ruleModal",
+    "skus": "/components/skus"
+  }
+}

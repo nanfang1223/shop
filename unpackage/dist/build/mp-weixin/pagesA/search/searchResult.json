@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索结果",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "heads": "/components/header",
+    "uni-load-more": "/components/uni-load-more",
+    "skus": "/components/skus"
+  }
+}

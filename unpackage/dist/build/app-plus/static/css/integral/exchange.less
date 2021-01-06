@@ -1,0 +1,91 @@
+.container{
+    background-color: @bgColor;
+    min-height: 100vh;
+}
+
+
+.content{
+    padding: 30rpx;
+    
+    .list{
+        display: flex;
+        align-items: center;
+        width: 690rpx;
+        height: 180rpx;
+        background: #FFFFFF;
+        border-radius: 8rpx;
+        padding: 0 30rpx;
+        box-sizing: border-box;
+        margin-bottom: 20rpx;
+        
+        >image{
+            width: 120rpx;
+            height: 120rpx;
+            margin-right: 20rpx;
+        }
+        
+        &_right{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            height: 120rpx;
+            overflow: hidden;
+            
+            &_title{
+                font-size: 26rpx;
+                color: #020202;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin-bottom: 14rpx;
+            }
+            
+            &_price{
+                display: flex;
+                font-size: 24rpx;
+                color: #FF7E00;
+                line-height: 20rpx;
+                
+                image{
+                    width: 24rpx;
+                    height: 22rpx;
+                    margin: 0 4rpx;
+                }
+                
+                view{
+                    font-size: 28rpx;
+                    line-height: 22rpx;
+                    font-weight: bold;
+                }
+            }
+            
+            >text{
+                color: #9A9A9A;
+                font-size: 24rpx;
+                line-height: 24rpx;
+                margin-top: auto;
+            }
+        }
+    }
+    
+}
+
+.empty_play img{
+    width: 220rpx;
+    height: 250rpx;
+}
+
+.empty_p{
+    font-size: 28rpx;
+    line-height: 28rpx;
+    margin-top: 0;
+}
+
+.empty_btn[class]{
+    width: 236rpx;
+    height: 74rpx;
+    line-height: 74rpx;
+    font-size: 30rpx;
+    border-radius: 5rpx;
+    margin-top: 60rpx;
+}

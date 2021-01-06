@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "修改联系地址",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker"
+  }
+}

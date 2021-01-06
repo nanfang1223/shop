@@ -1,0 +1,1 @@
+<view class="swiperBg" style="{{'margin-top:'+(marginTop+'rpx')+';'+('background:'+(bgColor2[0].item)+';')}}"><block><block wx:if="{{swiperType==1}}"><view class="colorBg" style="background:#FF612A;"></view></block></block></view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "会员分享",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "heads": "/components/header"
+  }
+}

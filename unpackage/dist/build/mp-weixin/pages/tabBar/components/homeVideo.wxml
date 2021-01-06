@@ -1,0 +1,1 @@
+<view class="homeVideo data-v-2bd47910" style="{{'margin-top:'+(mbConfig+'rpx')+';'}}"><video id="myVideo" src="{{videoSrc}}" object-fit="cover" poster="{{posterSrc}}" title="{{title}}" controls="{{true}}" data-event-opts="{{[['error',[['videoErrorCallback',['$event']]]]]}}" binderror="__e" class="data-v-2bd47910"></video></view>

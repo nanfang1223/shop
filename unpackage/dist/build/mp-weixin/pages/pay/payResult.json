@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "付款结果",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "heads": "/components/header"
+  }
+}

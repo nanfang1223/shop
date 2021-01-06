@@ -1,0 +1,1 @@
+<block wx:if="{{description}}"><view class="richText" style="{{('background-color:'+bgColor+';margin:'+udConfig+'rpx '+lrConfig+'rpx;')}}"><rich-text class="richtext" nodes="{{description}}"></rich-text></view></block>

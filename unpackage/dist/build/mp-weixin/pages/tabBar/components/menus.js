@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/tabBar/components/menus"],{4138:function(t,n,e){},"52f9":function(t,n,e){"use strict";e.r(n);var o=e("7437"),i=e("c383");for(var a in i)"default"!==a&&function(t){e.d(n,t,(function(){return i[t]}))}(a);e("eab2");var r,u=e("f0c5"),f=Object(u["a"])(i["default"],o["b"],o["c"],!1,null,"668e4628",null,!1,o["a"],r);n["default"]=f.exports},7437:function(t,n,e){"use strict";var o;e.d(n,"b",(function(){return i})),e.d(n,"c",(function(){return a})),e.d(n,"a",(function(){return o}));var i=function(){var t=this,n=t.$createElement;t._self._c},a=[]},"77ee":function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var o={name:"menus",props:{dataConfig:{type:Object,default:function(){}}},watch:{dataConfig:function(){this.bgColor=this.dataConfig.bgColor.color,this.menus=this.dataConfig.menuConfig.list}},data:function(){return{menus:this.dataConfig.menuConfig.list,rowStyle:this.dataConfig.rowStyle.type?"20%":"25%",titleColor:this.dataConfig.titleColor.color[0].item,mbConfig:this.dataConfig.mbConfig.val,bgColor:[{item:"#FFFFFF"},{item:"#FFFFFF"}]}},created:function(){this.bgColor=this.dataConfig.bgColor.color,this.menus=this.dataConfig.menuConfig.list},methods:{menusTap:function(t){var n=!1;t.indexOf("needLogin=1")>-1&&(n=!0),t.includes("/pagesA/shop/sign")?this.$emit("toUrl",t,n,1):this.$emit("toUrl",t,n)}}};n.default=o},c383:function(t,n,e){"use strict";e.r(n);var o=e("77ee"),i=e.n(o);for(var a in o)"default"!==a&&function(t){e.d(n,t,(function(){return o[t]}))}(a);n["default"]=i.a},eab2:function(t,n,e){"use strict";var o=e("4138"),i=e.n(o);i.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/tabBar/components/menus-create-component',
+    {
+        'pages/tabBar/components/menus-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("52f9"))
+        })
+    },
+    [['pages/tabBar/components/menus-create-component']]
+]);

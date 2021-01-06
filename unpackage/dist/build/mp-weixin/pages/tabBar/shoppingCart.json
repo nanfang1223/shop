@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "购物车",
+  "navigationBarBackgroundColor": "#FF612A",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "skus": "/components/skus"
+  }
+}

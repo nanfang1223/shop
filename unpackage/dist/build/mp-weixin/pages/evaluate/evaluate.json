@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "查看评论",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "heads": "/components/header"
+  }
+}

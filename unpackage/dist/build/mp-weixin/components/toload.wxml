@@ -1,0 +1,1 @@
+<view class="toload data-v-c91e9220"><block wx:if="{{!load}}"><view class="t-h data-v-c91e9220"><view class="loadbox data-v-c91e9220"><image class="loadbox-img data-v-c91e9220" src="{{loadGif}}" mode></image><view class="loadbox-text data-v-c91e9220">{{language.toload.loading}}</view></view></view></block><block wx:else><slot></slot></block></view>

@@ -1,0 +1,1 @@
+<block wx:if="{{heightConfig}}"><view class="lines" style="{{('padding:0 '+lrEdge+'rpx;margin-top:'+mbConfig+'rpx;')}}"><view class="item" style="{{('border-bottom-width:'+heightConfig+'rpx;border-bottom-color:'+lineColor+';border-bottom-style:'+lineStyle+';')}}"></view></view></block>

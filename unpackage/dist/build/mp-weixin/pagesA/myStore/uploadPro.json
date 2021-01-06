@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "上传商品",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mpvue-picker": "/components/mpvuePicker",
+    "weixin-parse": "/components/mpvue-wxparse/src/wxParse"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "店铺设置",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "time-picker": "/components/time-picker"
+  }
+}

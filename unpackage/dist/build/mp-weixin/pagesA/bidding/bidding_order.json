@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "竞拍订单确认页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "weixin-parse": "/components/mpvue-wxparse/src/wxParse",
+    "paymodel": "/components/paymodel",
+    "choose-pay": "/components/choose-pay",
+    "choose-address": "/components/order/choose-address",
+    "submit-order": "/components/order/submit-order",
+    "mock": "/components/skeleton/orderDetailsrMock"
+  }
+}

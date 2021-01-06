@@ -1,0 +1,326 @@
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding-bottom: 120rpx;
+}
+
+/* 选择属性名称 */
+.choose_attr {
+    padding-left: 30rpx;
+}
+
+.choose_attr li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30rpx;
+    height: 80rpx;
+    color: #666666;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 28rpx;
+}
+
+.choose_attr .img {
+    width: 30rpx;
+    height: 21rpx;
+}
+
+.btn_bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 98rpx;
+    background: @btnBackground;
+    color: @lightColor;
+    font-size: 30rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 下面是主页面 */
+.chooseAttr,
+.chooseAttrStyle {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90rpx;
+    padding: 0 30rpx;
+    font-size: 28rpx;
+    color: #242424;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.chooseAttrStyle > ul {
+    display: flex;
+}
+
+.chooseAttrStyle li {
+    display: flex;
+    align-items: center;
+    margin-left: 50rpx;
+}
+
+.chooseAttrStyle li img {
+    width: 34rpx;
+    height: 34rpx;
+    margin-right: 18rpx;
+}
+
+.chooseAttr .input {
+    flex: 1;
+    text-align: right;
+    font-size: 28rpx;
+    color: #666666;
+    padding: 0 20rpx;
+}
+
+.jiantou {
+    width: 15rpx;
+    height: 27rpx;
+}
+
+.attrBox {
+    padding: 30rpx 0;
+    position: relative;
+}
+
+.attrBoxTitle {
+    font-size: 28rpx;
+    color: #242424;
+    padding-bottom: 6rpx;
+    padding-left: 30rpx;
+    display: flex;
+    align-items: center;
+}
+
+.attrBoxTitle .text {
+    color: #999999;
+    padding-left: 20rpx;
+}
+
+.delete_img {
+    width: 30rpx;
+    height: 30rpx;
+    margin-left: auto;
+    margin-right: 30rpx;
+}
+
+.attrList {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0 7rpx;
+    padding-right: 30rpx;
+}
+
+.attrList > div {
+    min-width: 120rpx;
+    height: 56rpx;
+    line-height: 56rpx;
+    padding: 0 20rpx;
+    color: #666666;
+    font-size: 26rpx;
+    text-align: center;
+    background: #f6f6f6;
+    margin-top: 24rpx;
+    border-radius: 8rpx;
+    margin-left: 23rpx;
+    box-sizing: border-box;
+}
+
+.attrList .active {
+    background: #ffffff;
+    border: 1px solid #020202;
+}
+
+.choose_attr .active,
+.attrList .active {
+    color: #020202;
+}
+
+.attr_hr {
+    background: #eeeeee;
+    height: 1px;
+    margin-left: 30rpx;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.hr + .attrBox .attr_hr {
+    background: transparent;
+}
+
+.table {
+    min-width: 100%;
+    display: table;
+}
+
+.table .tr {
+    display: table-row;
+}
+
+.table .th,
+.table .td {
+    display: table-cell;
+    text-align: center;
+}
+
+.table .th {
+    color: #666666;
+    font-size: 28rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    border-bottom: 1px solid #eeeeee;
+    white-space: nowrap;
+    padding: 0 12rpx;
+}
+
+.table .td {
+    text-align: center;
+    font-size: 26rpx;
+    color: #020202;
+    border-bottom: 1px solid #eeeeee;
+    white-space: nowrap;
+    padding: 0 12rpx;
+}
+
+.table .td div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88rpx;
+}
+
+.table .td .input {
+    width: 120rpx;
+    height: 60rpx;
+    border: 1px solid #b8b8b8;
+    margin: 0 auto;
+    border-radius: 4rpx;
+    font-size: 26rpx;
+    color: #020202;
+}
+
+.hr {
+    background: #f6f6f6;
+    height: 20rpx;
+    width: 100%;
+}
+
+/* 以下为自定义属性名称 */
+.addAttr,
+.addAttrName {
+    display: flex;
+    align-items: center;
+    height: 90rpx;
+    padding-right: 30rpx;
+    margin-left: 30rpx;
+}
+
+.addAttr button,
+.addAttrName button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    font-size: 26rpx;
+    padding: 0;
+    border-radius: 4rpx;
+}
+
+.addAttr button {
+    width: 130rpx;
+    height: 60rpx;
+    color: #020202;
+    border: 1px solid #020202;
+}
+
+.addAttr button:after,
+.addAttrName button:after {
+    border: 0;
+}
+
+.addLeft {
+    width: 170rpx;
+    font-size: 28rpx;
+    color: #242424;
+}
+
+.addAttr input,
+.addAttrName input {
+    font-size: 28rpx;
+    flex: 1;
+}
+
+.addBtn,
+.removeBtn {
+    width: 80rpx;
+    height: 60rpx;
+}
+
+.addBtn {
+    color: #020202;
+    border: 1px solid #020202;
+}
+
+.removeBtn {
+    color: #888888;
+    border: 1px solid #999999;
+    margin-left: 20rpx;
+}
+
+.addAttrValue {
+    display: flex;
+    align-items: center;
+    padding-right: 10rpx;
+    margin-left: 30rpx;
+    padding-bottom: 10rpx;
+}
+
+.addAttrValue ul {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addAttrValue li {
+    height: 56rpx;
+    line-height: 56rpx;
+    padding: 0 35rpx;
+    font-size: 26rpx;
+    color: #666666;
+    background: #f6f6f6;
+    border-radius: 8rpx;
+    margin-right: 20rpx;
+    margin-bottom: 20rpx;
+    position: relative;
+}
+
+.addAttrValue .icon {
+    position: absolute;
+    top: -8rpx;
+    right: -8rpx;
+    width: 26rpx;
+    height: 26rpx;
+    border-radius: 50%;
+    background: #cacaca;
+}
+
+.addAttrValue .icon:after {
+    content: '';
+    position: absolute;
+    width: 14rpx;
+    height: 2rpx;
+    background: #ffffff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.border-bottom {
+    border-bottom: 1px solid #eeeeee;
+}

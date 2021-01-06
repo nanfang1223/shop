@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "新品上市",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "skus": "/components/skus"
+  }
+}

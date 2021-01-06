@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加活动商品",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "product-select": "/pagesA/myStore/components/product-select"
+  }
+}

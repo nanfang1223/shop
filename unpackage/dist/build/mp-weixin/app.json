@@ -1,0 +1,221 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/share",
+    "pages/tabBar/home",
+    "pages/tabBar/allGoods",
+    "pages/tabBar/shoppingCart",
+    "pages/tabBar/my",
+    "pages/login/agreement",
+    "pages/login/privacy",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/login/retrievepassword",
+    "pages/collection/collection",
+    "pages/collection/discover",
+    "pages/my/aboutMe",
+    "pages/my/myInfo",
+    "pages/my/mycoupon",
+    "pages/my/myScore",
+    "pages/my/gradeUse",
+    "pages/address/receivingAddress",
+    "pages/address/addAddress",
+    "pages/message/systemMesage",
+    "pages/message/service",
+    "pages/message/detailedMesage",
+    "pages/order/myOrder",
+    "pages/order/order",
+    "pages/order/order_payment",
+    "pages/order/orderSearch",
+    "pages/order/batchOrder",
+    "pages/goods/goodsDetailed",
+    "pages/goods/goods",
+    "pages/goods/fanggoods",
+    "pages/pay/orderDetailsr",
+    "pages/pay/orderDetailsrthe",
+    "pages/pay/orderDetailsrto",
+    "pages/pay/payResult",
+    "pages/expressage/expressage",
+    "pages/address/weizhi",
+    "pages/expressage/fangdada",
+    "pages/evaluate/evaluate",
+    "pages/evaluate/evaluating",
+    "pages/evaluate/evaluatEnd",
+    "pages/liveReplay/liveReplay"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesB",
+      "pages": [
+        "home/chooseArea",
+        "home/mchList",
+        "home/proList",
+        "expressage/expressage",
+        "coupon/mycoupon",
+        "coupon/coupon_detail",
+        "myWallet/myWallet",
+        "myWallet/recharge",
+        "myWallet/putForward",
+        "myWallet/rechargeSuccess",
+        "integral/exchange",
+        "integral/integral",
+        "integral/integral_detail",
+        "integral/integral_order",
+        "setUp/setUp",
+        "setUp/loginPassword",
+        "setUp/payment",
+        "setUp/changePhone",
+        "setUp/paymentPassword",
+        "seckill/seckill",
+        "seckill/seckill_detail",
+        "seckill/seckillDetailsr",
+        "seckill/seckill_my",
+        "seckill/payResult",
+        "vip/vip_share"
+      ]
+    },
+    {
+      "root": "pagesA",
+      "pages": [
+        "group/group",
+        "group/groupDetailed",
+        "group/group_end",
+        "group/payfor",
+        "group/groupOrder",
+        "store/store",
+        "myStore/seeCoupon",
+        "myStore/chooseClass",
+        "myStore/choosePro",
+        "myStore/coupon",
+        "myStore/tixianDetail",
+        "myStore/modifyAdress",
+        "myStore/activities_pro",
+        "myStore/activities_set",
+        "myStore/activities_add",
+        "myStore/activities_details",
+        "myStore/platform_activities",
+        "myStore/shipments",
+        "myStore/choose_shopping",
+        "myStore/applyStore",
+        "myStore/myStore",
+        "myStore/applySuc",
+        "myStore/myOrder",
+        "myStore/myPro",
+        "myStore/uploadPro",
+        "myStore/myCha",
+        "myStore/myCli",
+        "myStore/freight",
+        "myStore/freight_add",
+        "myStore/freight_rules",
+        "myStore/freight_sheng",
+        "myStore/storeSetup",
+        "myStore/storeRefund",
+        "myStore/order",
+        "myStore/setAttr",
+        "myStore/myFinance",
+        "myStore/goodsDetail",
+        "myStore/addStock",
+        "myStore/applyAgreement",
+        "myStore/storeList",
+        "myStore/addStore",
+        "bidding/bidding_order",
+        "bidding/bidding",
+        "bidding/bidding_detailed",
+        "bidding/bidding_record",
+        "bidding/bidding_my",
+        "bargain/bargain",
+        "bargain/bargainDetailsr",
+        "bargain/bargainIng",
+        "vip/vip",
+        "vipClub/vipClub",
+        "bidding/bidding_rule",
+        "bidding/bidding_detailed_Two",
+        "distribution/distribution_list",
+        "distribution/distribution_share",
+        "distribution/distribution_result",
+        "distribution/distribution_form",
+        "distribution/distribution_flow",
+        "distribution/distribution_center",
+        "distribution/distribution_team",
+        "distribution/distribution_tocashFlow",
+        "distribution/distribution_rule",
+        "search/search",
+        "search/searchResult",
+        "shop/coupon",
+        "shop/sign",
+        "shop/invite",
+        "returnGoods/refund",
+        "returnGoods/returnGoods",
+        "afterSale/afterSale",
+        "afterSale/afterDetail",
+        "myStore/QRcode",
+        "myStore/QRdraw",
+        "myStore/QRsuccess",
+        "myStore/MsIndex",
+        "myStore/fight_manage"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#FF612A",
+    "navigationBarTitleText": "豪眼光电商",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF612A",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/home",
+        "iconPath": "./static/img/homeWx.png",
+        "selectedIconPath": "./static/img/homeWxh.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/allGoods",
+        "iconPath": "./static/img/goShoppingWx.png",
+        "selectedIconPath": "./static/img/goShoppingWxh.png",
+        "text": "全部分类"
+      },
+      {
+        "pagePath": "pages/tabBar/shoppingCart",
+        "iconPath": "./static/img/shoppingWx.png",
+        "selectedIconPath": "./static/img/shoppingWxh.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/tabBar/my",
+        "iconPath": "./static/img/myWx.png",
+        "selectedIconPath": "./static/img/myWxh.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/tabBar/home": {
+      "network": "all",
+      "packages": [
+        "pagesA",
+        "pagesB"
+      ]
+    }
+  },
+  "networkTimeout": {
+    "request": 60000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {
+    "lktauthorize": "/components/lktauthorize",
+    "toload": "/components/toload",
+    "heads": "/components/header",
+    "uni-load-more": "/components/uni-load-more",
+    "skeleton": "/components/skeleton"
+  }
+}

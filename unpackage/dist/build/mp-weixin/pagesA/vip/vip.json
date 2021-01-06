@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "豪眼光会员",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "heads": "/components/header",
+    "weixin-parse": "/components/mpvue-wxparse/src/wxParse",
+    "rule-modal": "/components/ruleModal",
+    "paymodel": "/components/paymodel"
+  }
+}

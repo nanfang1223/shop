@@ -1,0 +1,1 @@
+<view class="_div"><block wx:if="{{!guiderImg}}"><toload vue-id="21f998ad-1" bind:__l="__l"></toload></block><block wx:else><view class="relative _div"><view data-event-opts="{{[['tap',[['countDown',[true]]]]]}}" class="guiderBtn _div" bindtap="__e"><label class="time _span">{{time}}</label>{{''+language.index.In+''}}</view></view></block></view>

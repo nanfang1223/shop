@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<iframe id="mapPage" width="100%" height="900px" frameborder=0 src="https://apis.map.qq.com/tools/locpicker?search=1&type=1&key=UVYBZ-YFM2F-P64JJ-JT5QF-5LYEV-JKBJM&referer=myapp">
+		</iframe>
+		<script src="https://js.cdn.aliyun.dcloud.net.cn/dev/uni-app/uni.webview.1.5.2.js"></script>
+		<script>
+			window.addEventListener('message', function(event) {
+				// 接收位置信息，用户选择确认位置点后选点组件会触发该事件，回传用户的位置信息
+				var loc = event.data;
+				// if (loc && loc.module == 'locationPicker') { //防止其他应用也会向该页面post信息，需判断module是否为'locationPicker'
+					// console.log('location', loc);
+
+					if (loc) {
+
+						// var getV = window.localStorage.getItem("value0"),
+						// var storage = window.sessionStorage;  
+						// storage.setItem('数据', loc);  
+						// localStorage.setItem("dzhijinwlat", JSON.stringify(loc.latlng.lat));
+						// localStorage.setItem("dzhijinwlng", JSON.stringify(loc.latlng.lng));
+						// localStorage.setItem("dizhi2", JSON.stringify(loc.poiaddress));
+						plus.storage.setItem("dizhi2",JSON.stringify(loc.poiaddress));  
+						plus.storage.setItem("dzhijinwlat",JSON.stringify(loc.latlng.lat));  
+						plus.storage.setItem("dzhijinwlng",JSON.stringify(loc.latlng.lng));  
+						// localStorage.setItem("biaoji", JSON.stringify(55));
+						// JSON.parse(localStorage.getItem("dizhi2")
+						console.log(3333)
+						// uni.navigateTo({
+						// 	url: '/pages/address/addAddress?state_addre=1'
+						// })
+					  uni.navigateBack({
+					                delta: 1
+					            });
+
+						// window.location.href="https://app.hygapp.com/H5/#/pages/address/addAddress?state_addre=1";
+					}
+
+				// }
+			}, false);
+		</script>
+
+	</body>
+</html>

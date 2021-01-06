@@ -1,0 +1,1 @@
+<view class="us-all _div data-v-34b4726b"><heads vue-id="e77332c8-1" title="{{title}}" class="data-v-34b4726b" bind:__l="__l"></heads><block wx:if="{{content}}"><view class="logo _div data-v-34b4726b"><rich-text class="richtext data-v-34b4726b" nodes="{{content}}"></rich-text></view></block></view>

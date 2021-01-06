@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "秒杀商品",
+  "usingComponents": {
+    "weixin-parse": "/components/mpvue-wxparse/src/wxParse",
+    "skus": "/components/skus"
+  }
+}
